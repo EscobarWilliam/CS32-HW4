@@ -26,28 +26,3 @@ void removeBad(vector<Restaurant*>& v)
       it++;
   }
 }
-//int main()
-//{
-//    const int N = some value;
-//    bool hasCommunicatedWith[N][N];
-//    ...
-//    int numIntermediaries[N][N];
-//    for (int i = 0; i < N; i++)
-//    {
-//        numIntermediaries[i][i] = -1;  // the concept of intermediary
-//        // makes no sense in this case
-//        for (int j = 0; j < N; j++)
-//        {
-//            if (i == j)
-//                continue;
-//            numIntermediaries[i][j] = 0;
-//            for (int k = 0; k < N; k++)
-//            {
-//                if (k == i  ||  k == j)
-//                    continue;
-//                if (hasCommunicatedWith[i][k]  &&  hasCommunicatedWith[k][j])
-//                    numIntermediaries[i][j]++;
-//            }
-//        }
-//    }
-//}
